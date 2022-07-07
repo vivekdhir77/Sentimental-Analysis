@@ -23,13 +23,6 @@ for text in data.text:
         emotion_data.append([text,"error", "error"])
 
 
-
-
 columns = ["Text", "Emotion", "Percentage"]
 df = pd.DataFrame(emotion_data, columns=columns)
 df.to_csv('emotion_data.csv')
-
-
-
-
-
