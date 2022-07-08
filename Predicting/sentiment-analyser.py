@@ -24,7 +24,7 @@ if __name__ == "__main__" :
     CLEANED_DATA_FILE = "YOUR FILE PATH HERE"
     RESULTANT_FILE = "YOUR FILE PATH HERE"
     tweets = pd.read_csv(CLEANED_DATA_FILE)
-    tweets = tweets.head(5)
+    # tweets = tweets.head(5)
     result = []
     # print(tweets['Text'])
     for tweet in tweets['Text']:
